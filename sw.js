@@ -1,6 +1,6 @@
 // Mendaftarkan file untuk di-cache
 const cacheFiles = [
-    './index.html',,
+    './index.html',
     './about.html',
     './blog.html',
     './contact.html',
