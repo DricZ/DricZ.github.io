@@ -35,9 +35,7 @@ const cacheFiles = [
     './images/portfolio-example-03.jpg',
     './images/portfolio-example-04.jpg',
     './images/portfolio-example-05.jpg',
-    './images/portfolio-example-06.jpg',
-    './manifest.json',
-    './favicon.ico'
+    './images/portfolio-example-06.jpg'
   ];
   
   // Menginstall service worker
