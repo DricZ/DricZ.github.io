@@ -42,7 +42,9 @@ const cacheFiles = [
   self.addEventListener('install', e => {
     e.waitUntil(
       caches.open('portfolio-cache').then(cache => {
-        return cache.addAll(cacheFiles);
+        return cache.addAll(cacheFiles).catch(error => {
+          console.error('Failed to cache files:', error);
+        });
       })
     );
   });
